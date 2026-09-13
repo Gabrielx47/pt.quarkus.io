@@ -886,8 +886,9 @@ msgstr ""
 msgid "PQC availability summary"
 msgstr ""
 
+#, fuzzy
 msgid "Mode"
-msgstr ""
+msgstr "Modo"
 
 msgid "Java Runtime"
 msgstr ""
@@ -904,8 +905,9 @@ msgstr ""
 msgid "Prerequisites"
 msgstr "Pré-requisitos"
 
+#, fuzzy
 msgid "JVM"
-msgstr ""
+msgstr "JVM"
 
 msgid "Any"
 msgstr ""
@@ -913,8 +915,9 @@ msgstr ""
 msgid "OpenSSL (netty-tcnative)"
 msgstr ""
 
+#, fuzzy
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 msgid "OpenSSL 3.5+; `libapr-1` (`microdnf install apr` on UBI)"
 msgstr ""
@@ -925,8 +928,9 @@ msgstr ""
 msgid "JDK SSL"
 msgstr ""
 
+#, fuzzy
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 msgid "—"
 msgstr ""
@@ -937,8 +941,9 @@ msgstr ""
 msgid "JDK 27+ (or 25+ after backport)"
 msgstr ""
 
+#, fuzzy
 msgid "Native"
-msgstr ""
+msgstr "Nativo"
 
 msgid "Engine unavailable in native mode"
 msgstr ""

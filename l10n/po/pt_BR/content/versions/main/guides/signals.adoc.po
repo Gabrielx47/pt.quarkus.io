@@ -482,8 +482,9 @@ msgstr ""
 msgid "Use the *Vert.x EventBus* when you need to interact with the underlying Vert.x runtime directly or integrate with existing Vert.x components."
 msgstr ""
 
+#, fuzzy
 msgid "OpenTelemetry Tracing"
-msgstr ""
+msgstr "Rastreamento de OpenTelemetry"
 
 msgid "If the xref:opentelemetry.adoc[OpenTelemetry extension] is present, the active trace context is automatically propagated from the signal emission to the receiver invocations."
 msgstr ""
@@ -521,8 +522,9 @@ msgstr ""
 msgid "This integration is enabled by default and can be disabled with the following configuration property:"
 msgstr ""
 
+#, fuzzy
 msgid "Micrometer Metrics"
-msgstr ""
+msgstr "Métricas de micrômetro"
 
 msgid "If the xref:telemetry-micrometer.adoc[Micrometer extension] is present, the following counters are registered:"
 msgstr ""
@@ -666,8 +668,9 @@ msgstr "<i class=\"fa fa-chevron-down\"></i><span>Mostrar mais</span>"
 msgid "boolean"
 msgstr "booleano"
 
+#, fuzzy
 msgid "`+++true+++`"
-msgstr ""
+msgstr "`verdadeiro`"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-signals_quarkus-signals-telemetry-metrics-enabled]] [.property-path]##link:#quarkus-signals_quarkus-signals-telemetry-metrics-enabled[`+++quarkus.signals.telemetry.metrics.enabled+++`]##\n"
