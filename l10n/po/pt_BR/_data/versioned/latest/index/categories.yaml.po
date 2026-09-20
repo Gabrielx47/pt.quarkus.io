@@ -521,9 +521,9 @@ msgstr "native-and-ssl.adoc"
 
 #. type: Hash Value: categories subcategories guides summary
 #: _data/versioned/latest/index/categories.yaml:1
-#, fuzzy, no-wrap
-msgid "In this guide, we will discuss how you can get your native images to support SSL, as native images don't support it out of the box."
-msgstr "Neste guia, discutiremos como você pode fazer com que suas imagens nativas sejam compatíveis com SSL, já que elas não oferecem suporte a esse protocolo por padrão."
+#, no-wrap
+msgid "TLS works in native executables out of the box."
+msgstr ""
 
 #. type: Hash Value: categories subcategories guides title
 #: _data/versioned/latest/index/categories.yaml:1
@@ -3290,12 +3290,6 @@ msgstr "io.quarkus:quarkus-redis-client"
 #, no-wrap
 msgid "redis.adoc"
 msgstr "redis.adoc"
-
-#. type: Hash Value: categories subcategories guides status
-#: _data/versioned/latest/index/categories.yaml:1
-#, fuzzy, no-wrap
-msgid "stable"
-msgstr "estável"
 
 #. type: Hash Value: categories subcategories guides summary
 #: _data/versioned/latest/index/categories.yaml:1
