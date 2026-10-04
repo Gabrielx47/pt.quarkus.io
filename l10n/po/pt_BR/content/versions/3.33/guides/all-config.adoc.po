@@ -16176,8 +16176,9 @@ msgstr ""
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_PRODUCT_ATTRIBUTION+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "[[quarkus-cyclonedx_section_quarkus-cyclonedx-embedded]] [.section-name.section-level0]##link:#quarkus-cyclonedx_section_quarkus-cyclonedx-embedded[Embedded dependency SBOM configuration]##"
-msgstr ""
+msgstr " link:#quarkus-cyclonedx_section_quarkus-cyclonedx-embedded[Configuração da SBOM de dependências incorporadas]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[`+++quarkus.cyclonedx.embedded.enabled+++`]##\n"
@@ -16193,16 +16194,18 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[`+++quarkus.cyclonedx.embedded.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.cyclonedx.embedded.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[quarkus.cyclonedx.embedded.enabled] config_property_copy_button:quarkus.cyclonedx.embedded.enabled[]"
 
 msgid "Whether a dependency SBOM should be embedded in the final application as a classpath resource."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_EMBEDDED_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CYCLONEDX_EMBEDDED_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[`+++quarkus.cyclonedx.embedded.resource-name+++`]##\n"
@@ -16218,19 +16221,22 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[`+++quarkus.cyclonedx.embedded.resource-name+++`]##\n"
 "config_property_copy_button:+++quarkus.cyclonedx.embedded.resource-name+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[quarkus.cyclonedx.embedded.resource-name] config_property_copy_button:quarkus.cyclonedx.embedded.resource-name[]"
 
 msgid "Classpath resource name for the embedded dependency SBOM. The SBOM format (JSON or XML) is derived from the resource name extension."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_EMBEDDED_RESOURCE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CYCLONEDX_EMBEDDED_RESOURCE_NAME[]"
 
+#, fuzzy
 msgid "`+++META-INF/sbom/dependency.cdx.json+++`"
-msgstr ""
+msgstr "`META-INF/sbom/dependency.cdx.json`"
 
 msgid "[.extension-name]##Datasources##"
 msgstr ""
@@ -24480,17 +24486,21 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.limits.max-multipart-part-header-size+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum size of the headers section within a single MIME part of a `multipart/form-data` request. This limits the combined size of all header names and values for each individual part (e.g., the Content-Disposition and Content-Type headers), not the HTTP request headers."
-msgstr ""
+msgstr "O tamanho máximo da seção de cabeçalhos dentro de uma única parte MIME de uma solicitação `multipart/form-data` . Isso limita o tamanho combinado de todos os nomes e valores dos cabeçalhos para cada parte individual (por exemplo, os cabeçalhos Content-Disposition e Content-Type), e não os cabeçalhos da solicitação HTTP."
 
+#, fuzzy
 msgid "If a part's headers exceed this limit, the request is rejected with HTTP 413."
-msgstr ""
+msgstr "Se os cabeçalhos de uma parte excederem esse limite, a solicitação será rejeitada com o código HTTP 413."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_MULTIPART_PART_HEADER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_MULTIPART_PART_HEADER_SIZE[]"
 
+#, fuzzy
 msgid "`+++32K+++`"
-msgstr ""
+msgstr "`32 mil`"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-http-limits-max-multipart-header-count]] [.property-path]##link:#quarkus-vertx-http_quarkus-http-limits-max-multipart-header-count[`+++quarkus.http.limits.max-multipart-header-count+++`]##\n"
@@ -24513,14 +24523,17 @@ msgid ""
 "config_property_copy_button:+++quarkus.http.limits.max-multipart-header-count+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "The maximum number of headers allowed within a single MIME part of a `multipart/form-data` request."
-msgstr ""
+msgstr "O número máximo de cabeçalhos permitido em uma única parte MIME de uma solicitação `do tipo multipart/form-data` ."
 
+#, fuzzy
 msgid "If a part contains more headers than this limit, the request is rejected with HTTP 413."
-msgstr ""
+msgstr "Se uma parte contiver mais cabeçalhos do que esse limite, a solicitação será rejeitada com o código HTTP 413."
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_HTTP_LIMITS_MAX_MULTIPART_HEADER_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_HTTP_LIMITS_MAX_MULTIPART_HEADER_COUNT[]"
 
 #, fuzzy
 msgid "`+++40+++`"
@@ -27201,13 +27214,15 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-multipart-part-header-size]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-part-header-size[`+++quarkus.management.limits.max-multipart-part-header-size+++`]##\n"
 "config_property_copy_button:+++quarkus.management.limits.max-multipart-part-header-size+++[]"
-msgstr ""
+msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-part-header-size[quarkus.management.limits.max-multipart-part-header-size] config_property_copy_button:quarkus.management.limits.max-multipart-part-header-size[]"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MANAGEMENT_LIMITS_MAX_MULTIPART_PART_HEADER_SIZE+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MANAGEMENT_LIMITS_MAX_MULTIPART_PART_HEADER_SIZE[]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-multipart-header-count]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-header-count[`+++quarkus.management.limits.max-multipart-header-count+++`]##\n"
@@ -27225,13 +27240,15 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-multipart-header-count]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-header-count[`+++quarkus.management.limits.max-multipart-header-count+++`]##\n"
 "config_property_copy_button:+++quarkus.management.limits.max-multipart-header-count+++[]"
-msgstr ""
+msgstr " link:#quarkus-vertx-http_quarkus-management-limits-max-multipart-header-count[quarkus.management.limits.max-multipart-header-count] botão_para_copiar_propriedade_de_configuração:quarkus.management.limits.max-multipart-header-count[]"
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_MANAGEMENT_LIMITS_MAX_MULTIPART_HEADER_COUNT+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_MANAGEMENT_LIMITS_MAX_MULTIPART_HEADER_COUNT[]"
 
 msgid ""
 "[[quarkus-vertx-http_quarkus-management-limits-max-connections]] [.property-path]##link:#quarkus-vertx-http_quarkus-management-limits-max-connections[`+++quarkus.management.limits.max-connections+++`]##\n"
@@ -97768,8 +97785,9 @@ msgstr "`quarkus.oidc.\"tenant\".authentication.state-secret` config_property_co
 msgid "Secret used to encrypt Proof Key for Code Exchange (PKCE) code verifier and/or nonce in the code flow state. This secret should be at least 32 characters long."
 msgstr "Segredo utilizado para criptografar o verificador de código do Proof Key for Code Exchange (PKCE) e/ou o nonce no estado de fluxo de código. Esse segredo deve ter, no mínimo, 32 caracteres."
 
+#, fuzzy
 msgid "If this secret is not set, the client secret configured with either `quarkus.oidc.credentials.secret` or `quarkus.oidc.credentials.client-secret.value` is checked. Finally, `quarkus.oidc.credentials.jwt.secret` which can be used for `client_jwt_secret` authentication is checked. A client secret is not be used as a state encryption secret if it is less than 32 characters long.  The secret is auto-generated if it remains uninitialized after checking all of these properties."
-msgstr ""
+msgstr "Caso esse segredo não esteja definido, será verificado o segredo do cliente configurado por meio de `quarkus.oidc.credentials.secret` ou `quarkus.oidc.credentials.client-secret.value` . Por fim, é verificado o parâmetro ` `quarkus.oidc.credentials.jwt.secret`` , que pode ser utilizado para a autenticação por ` `client_jwt_secret`` . Um segredo de cliente não deve ser utilizado como segredo de criptografia de estado se tiver menos de 32 caracteres. O segredo é gerado automaticamente caso permaneça não inicializado após a verificação de todas essas propriedades."
 
 #, fuzzy
 msgid "Error is reported if the secret length is less than 16 characters."

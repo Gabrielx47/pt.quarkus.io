@@ -265,8 +265,9 @@ msgstr ""
 msgid "For the `quarkus:dependency-sbom` Maven goal the equivalent parameter is `quarkus.dependency.sbom.product-attribution`."
 msgstr ""
 
+#, fuzzy
 msgid "How it works"
-msgstr ""
+msgstr "Como funciona"
 
 msgid "Attribution is driven entirely by metadata the platform provides through its <<platform.adoc#product-attribution-properties,platform properties>>; an application does not configure products directly. Each imported platform member that declares a product identity (at minimum a CPE) yields, in the generated SBOM, a single product component that:"
 msgstr ""
@@ -523,11 +524,13 @@ msgstr ""
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_PRODUCT_ATTRIBUTION+++[]"
 msgstr ""
 
+#, fuzzy
 msgid "`+++true+++`"
-msgstr ""
+msgstr "`verdadeiro`"
 
+#, fuzzy
 msgid "[[quarkus-cyclonedx_section_quarkus-cyclonedx-embedded]] [.section-name.section-level0]##link:#quarkus-cyclonedx_section_quarkus-cyclonedx-embedded[Embedded dependency SBOM configuration]##"
-msgstr ""
+msgstr " link:#quarkus-cyclonedx_section_quarkus-cyclonedx-embedded[Configuração da SBOM de dependências incorporadas]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[`+++quarkus.cyclonedx.embedded.enabled+++`]##\n"
@@ -543,16 +546,18 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[`+++quarkus.cyclonedx.embedded.enabled+++`]##\n"
 "config_property_copy_button:+++quarkus.cyclonedx.embedded.enabled+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-enabled[quarkus.cyclonedx.embedded.enabled] config_property_copy_button:quarkus.cyclonedx.embedded.enabled[]"
 
 msgid "Whether a dependency SBOM should be embedded in the final application as a classpath resource."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_EMBEDDED_ENABLED+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CYCLONEDX_EMBEDDED_ENABLED[]"
 
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[`+++quarkus.cyclonedx.embedded.resource-name+++`]##\n"
@@ -568,16 +573,19 @@ msgid ""
 "--"
 msgstr ""
 
+#, fuzzy
 msgid ""
 "icon:lock[title=Fixed at build time] [[quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name]] [.property-path]##link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[`+++quarkus.cyclonedx.embedded.resource-name+++`]##\n"
 "config_property_copy_button:+++quarkus.cyclonedx.embedded.resource-name+++[]"
-msgstr ""
+msgstr "[lock]  link:#quarkus-cyclonedx_quarkus-cyclonedx-embedded-resource-name[quarkus.cyclonedx.embedded.resource-name] config_property_copy_button:quarkus.cyclonedx.embedded.resource-name[]"
 
 msgid "Classpath resource name for the embedded dependency SBOM. The SBOM format (JSON or XML) is derived from the resource name extension."
 msgstr ""
 
+#, fuzzy
 msgid "Environment variable: env_var_with_copy_button:+++QUARKUS_CYCLONEDX_EMBEDDED_RESOURCE_NAME+++[]"
-msgstr ""
+msgstr "Variável de ambiente: env_var_with_copy_button:QUARKUS_CYCLONEDX_EMBEDDED_RESOURCE_NAME[]"
 
+#, fuzzy
 msgid "`+++META-INF/sbom/dependency.cdx.json+++`"
-msgstr ""
+msgstr "`META-INF/sbom/dependency.cdx.json`"
